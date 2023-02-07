@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import "./styles/App.css";
 const Home = () => {
   const path = useLocation();
+
   return (
     <div className="container">
       <Navbar menu={path.pathname} />
